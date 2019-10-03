@@ -1,0 +1,21 @@
+{
+    "name": "yii2cmf/yii2-helpers",
+    "description": "These helpers are intended for use by modules and extensions",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","helper"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shandyrov Askar",
+            "email": "shandyrov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2cmf\\helpers\\": "src"
+        }
+    }
+}
