@@ -1,5 +1,5 @@
 <?php
-namespace app\modules\basic\components\helpers;
+namespace yii2cmf\helpers;
 
 use Yii;
 use Imagine\Gd\Imagine;
