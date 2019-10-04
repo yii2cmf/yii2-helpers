@@ -155,9 +155,9 @@ class FileHelper
         return 0;
     }
 
-    public static function getThumbnailImage($guid)
+    public static function getThumbnailImage($guid, $attachmentMeta)
     {
-        return self::getAttachment($guid, 'thumbnail');
+        return self::getAttachment($guid, 'thumbnail', $attachmentMeta);
     }
 
     public static function getMediumImage($guid)
