@@ -24,9 +24,7 @@ class GistHelper
             }
             //$html .= "<li><a href='{$gist->html_url}'>{$gist->description}</a></li>";
         }
-        //echo '<pre>';
-        //print_r($data);
-        //echo '</pre>';die;
+
         return $data;
     }
 }
